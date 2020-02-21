@@ -9,6 +9,11 @@ sections:
 - type: document
   path: content/_index.md
   label: Home
+- type: document
+  path: now
+  label: Now
+  match: "**/*"
+  read_only: false
 - type: directory
   path: content/post
   label: Posts
